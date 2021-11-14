@@ -2,11 +2,14 @@ import React from "react";
 import { Modal, Button } from "react-bootstrap";
 
 interface IProps {
-  show?: any;
-  handleClose?: any;
+  data: {
+    show?: any;
+    handleClose?: any;
+  };
 }
 
 const ModalComp = (props: IProps) => {
+  const { show, handleClose } = props.data;
   return (
     <div>
       <Modal show={show} onHide={handleClose}>
