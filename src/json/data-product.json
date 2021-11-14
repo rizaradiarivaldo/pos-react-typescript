@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Espresso",
+    "src": "/images/img2.png",
+    "price": 10000
+  },
+  {
+    "id": 2,
+    "name": "Cofee Latte",
+    "src": "/images/img3.png",
+    "price": 15000
+  },
+  {
+    "id": 3,
+    "name": "Cappucino",
+    "src": "/images/img4.png",
+    "price": 5000
+  },
+  {
+    "id": 4,
+    "name": "Red Velvet Latte ",
+    "src": "/images/img5.png",
+    "price": 33000
+  },
+  {
+    "id": 5,
+    "name": "Choco Rhum",
+    "src": "/images/img6.png",
+    "price": 28000
+  },
+  {
+    "id": 6,
+    "name": "Black Forest ",
+    "src": "/images/img7.png",
+    "price": 30000
+  },
+  {
+    "id": 7,
+    "name": "Chicken Katsu Dabu-dabu",
+    "src": "/images/img8.png",
+    "price": 60000
+  },
+  {
+    "id": 8,
+    "name": "Salmon Truffle Teriyaki ",
+    "src": "/images/img9.png",
+    "price": 60000
+  },
+  {
+    "id": 9,
+    "name": "Wiener Schnitzel",
+    "src": "/images/img1.png",
+    "price": 69000
+  }
+]

@@ -1,0 +1,146 @@
+.rows {
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  /* position sticky */
+  /* position: sticky;
+  top: 0;
+  z-index: 2; */
+
+  /* set height */
+  height: 18vh;
+}
+
+.content {
+  height: 82vh;
+}
+.sidebar {
+  width: 80px !important;
+  background-color: white;
+}
+.menuSidebar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 39px;
+}
+.searchIcon {
+  text-align: right;
+}
+.searchIcon img {
+  cursor: pointer;
+}
+
+.contentProduct {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  background: rgba(190, 195, 202, 0.3);
+}
+/* 
+.contentProduct::-webkit-scrollbar {
+  width: 10px;
+}
+.contentProduct::-webkit-scrollbar-track {
+  background-color: rgba(143, 143, 143, 0.3);
+  border: 2px solid rgba(233, 233, 233, 0.3);
+}
+.contentProduct::-webkit-scrollbar-thumb {
+  background-color: rgb(187, 187, 187);
+  border-radius: 20px;
+} */
+
+.product {
+  padding: 20px 15px;
+  height: 100%;
+}
+
+.heightSideCart {
+  height: 18vh;
+  background-color: white;
+  box-shadow: 0px 4px 1px rgba(139, 89, 89, 0.25);
+}
+
+.sideCart {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  justify-content: center;
+}
+.cart {
+  font-weight: 600;
+  font-size: 25px;
+}
+.notice {
+  width: 25px;
+  height: 25px;
+  background: #57cad5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.heightCart {
+  height: 82vh;
+  /* flex-direction: column; */
+}
+
+.topCart {
+  height: 65%;
+  overflow-y: auto;
+}
+
+/* .topCart::-webkit-scrollbar {
+  width: 10px;
+}
+.topCart::-webkit-scrollbar-track {
+  background-color: rgba(143, 143, 143, 0.3);
+  border: 2px solid rgba(233, 233, 233, 0.3);
+}
+.topCart::-webkit-scrollbar-thumb {
+  background-color: rgb(187, 187, 187);
+  border-radius: 20px;
+} */
+
+.bottomCart {
+  height: 35%;
+}
+
+.btn {
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100%;
+}
+.btnCheckout {
+  background: #57cad5;
+  margin-bottom: 18px;
+}
+.btnCancel {
+  background: #f24f8a;
+}
+
+/* .cardImage {
+  height: 200px;
+  object-fit: cover;
+} */
+
+/* empty summary */
+.emptyCartTxt1 {
+  margin-top: -30px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.emptyCartTxt2 {
+  color: #cecece;
+}
